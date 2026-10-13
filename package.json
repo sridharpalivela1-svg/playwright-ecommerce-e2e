@@ -1,0 +1,29 @@
+﻿{
+  "name": "playwright-ecommerce-e2e",
+  "version": "1.0.0",
+  "description": "End-to-end test suite for e-commerce application using Playwright and Page Object Model",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "page-object-model",
+    "qa",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
